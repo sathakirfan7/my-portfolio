@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathak Irfan Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+        <div class="greeting">Hi, welcome to my portfolio</div>
+    </header>
+    <!-- About Me -->
+    <section class="about-section" id="about">
+        <img src="irfan.jpg" alt="Sathak Irfan" class="profile-photo" />
+        <div>
+            <div class="about-text">
+                I'm Sathak Irfan, a Full Stack Developer and UI/UX Designer passionate about crafting interactive digital experiences. I love transforming design ideas into functional, user-centered interfaces.
+            </div>
+            <a href="cv resume.pdf" class="resume-btn" download>
+                <i class="fa fa-download"></i> Download Resume
+            </a>
+        </div>
+    </section>
+    <!-- Main Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="skills-title">Main Skills</div>
+        <div class="skill-cards" id="main-skills">
+            <!-- Node.js will render skill cards here -->
+        </div>
+    </section>
+    <!-- Projects Gallery -->
+    <section class="projects-section" id="projects">
+        <div class="projects-title">Projects Gallery</div>
+        <div class="projects-gallery" id="projects-gallery">
+            <!-- Project cards will be rendered here -->
+        </div>
+    </section>
+    <!-- Technical Skills Section -->
+    <section class="tech-skills-section" id="tech-skills">
+        <div class="tech-skills-title">Technical Skills</div>
+        <div class="tech-skills-list" id="tech-skills-list">
+            <!-- Node.js will render technical skills here -->
+        </div>
+    </section>
+    <!-- Education Timeline -->
+    <section class="timeline-section" id="education">
+        <div class="timeline-title">Education Timeline</div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-degree">SSLC</div>
+                    <div class="timeline-school">Islamiah Matriculation Hr. Sec. School</div>
+                    <div class="timeline-score">70%</div>
+                    <div style="position:absolute; right:0; top:0; font-size:0.98rem; color:#b2dfdb; font-weight:600;">
+                        2019-2020
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-degree">HSC</div>
+                    <div class="timeline-school">Islamiah Matric Hr. Sec. School</div>
+                    <div class="timeline-score">74%</div>
+                    <div style="position:absolute; right:0; top:0; font-size:0.98rem; color:#b2dfdb; font-weight:600;">
+                        2021-2022
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-degree">B.Tech (Information Technology)</div>
+                    <div class="timeline-school">Mohamed Sathak Engineering College</div>
+                    <div class="timeline-score">8.2 cgpa</div>
+                    <div style="position:absolute; right:0; top:0; font-size:0.98rem; color:#b2dfdb; font-weight:600;">
+                        2022-2026
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My Services Section -->
+    <section class="services-section" id="services">
+        <div class="services-title">My Services</div>
+        <div class="services-cards">
+            <div class="service-card" data-anim="slide-left">
+                <div class="service-icon" style="background: #2979ff1a;">
+                    <i class="fa fa-code"></i>
+                </div>
+                <div class="service-content">
+                    <div class="service-name">Front-End Development</div>
+                    <div class="service-desc">
+                        I specialize in crafting responsive, accessible, and high-performance websites using HTML, CSS, JavaScript, and frameworks like React. My goal is to transform designs into smooth user experiences that work flawlessly across all devices.
+                    </div>
+                </div>
+            </div>
+            <div class="service-card" data-anim="slide-right">
+                <div class="service-icon" style="background: #1de9b61a;">
+                    <i class="fa fa-object-group"></i>
+                </div>
+                <div class="service-content">
+                    <div class="service-name">UI/UX Design</div>
+                    <div class="service-desc">
+                        With a deep understanding of user behavior, I design intuitive interfaces and flows using tools like Figma and Adobe XD. From wireframes to polished prototypes, I bring clarity and elegance to every interaction.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="cert-section" id="certifications">
+        <div class="cert-title">Certifications</div>
+        <div class="cert-badges">
+            <div class="cert-badge">
+                <i class="fa fa-certificate"></i>
+                UI/UX Design Certificate – Accenture
+            </div>
+            <div class="cert-badge">
+                <i class="fa fa-certificate"></i>
+                Full Stack Development  Certificate – Novitech
+            </div>
+            <div class="cert-badge">
+                <i class="fa fa-certificate"></i>
+                HTML, CSS, JS Bootcamp  Certificate – LetsUpgrade
+            </div>
+            <div class="cert-badge">
+                <i class="fa fa-certificate"></i>
+                Data Analytics  Certificate – novitech
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-title">Contact Me</div>
+        <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Name" required autocomplete="off"/>
+            <input type="email" name="email" placeholder="Email" required autocomplete="off"/>
+            <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off"/>
+            <textarea name="message" rows="4" placeholder="Message" required></textarea>
+            <button type="submit" class="send-btn">Send Message</button>
+            <div class="success-message" id="successMsg">Thank you! Your message has been sent.</div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-text"> @Crafted with passion by Sathak Irfan</div>
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/sathak-irfan-9b9557331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="" target="_blank" rel="noopener" aria-label="github"><i class="fab fa-github" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+    <!-- Scripts for interactivity and animation -->
+     <script src="script.js"></script>
+</body>
+</html>
